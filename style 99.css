@@ -1,0 +1,392 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+    
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    z-index: 99999999;
+}
+
+.name ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.name ul li{
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: midnightblue;
+    align-items: center;
+    padding: 0px 60px;
+   
+}
+
+.home a{
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-shadow: 4px 4px 4px ;
+}
+
+.name ul li a{
+    text-decoration: none;
+    padding: 15px 60px;
+    font-size: 25px;
+    display: block;
+    color: white;
+
+}
+
+.action{
+    background-color: red;
+    
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 107px -73px;
+}
+
+.left p:nth-child(1){
+    color: red;
+    font-size: 35px;
+  
+}
+
+.left p:nth-child(2){
+    color: blue;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.left p:nth-child(3){
+    margin: 10px 0px 15px 0px;
+    font-size: 22px;
+}
+
+.me{
+    background: transparent;
+    padding: 18px 40px;
+    font-weight: 700;
+    color: red;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.cv{
+    background: violet;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0A1A6E;
+    width: 87%;
+    margin: -109px auto;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px black;
+    position: relative;
+}
+.rightp p:nth-child(3){
+   text-align: justify;
+    width: 600px;
+    color: white;
+   
+    
+}
+
+.leftp img{
+    width: 355px;
+   
+}
+
+.about .rightp h2{
+    margin: 0;
+    color: white;
+    font-size: 30px;
+}
+
+.rightp p:nth-child(2){
+    color: white;
+    margin: 10px 0px;
+}
+
+.about .rightp button{
+    border: none;
+    padding: 15px 30px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.service{
+    margin: 140px;
+
+
+}
+
+.service h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 0;
+}
+
+.service h3{
+    text-align: center;
+    margin: 4px;
+    letter-spacing: 4px;
+}
+
+
+.service-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1, .box2, .box3 {
+    width: 300px;
+    height: 400px;
+    background-color:#0A1A6E ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 48px 12px;
+}
+.box1 span,.box2 span,.box3 span{
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px ;
+}
+
+.head{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.details{
+    color: white;
+    padding: 0px 20px;
+}
+
+.service-box button{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    margin: 25px;
+   border: 5px solid white;
+   padding: 10px;
+   border-radius: 3px;
+}
+
+.contact{
+    
+    background-image: url(imge/refg.png);
+    background-size: cover;
+    height: 100px;
+    margin: 100px 35px;
+    padding: 100px 9px;
+   
+    
+}
+.contact p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.contact button{
+    display: block;
+    margin: auto;
+    padding: 19px 56px;
+    border: none;
+    border-radius: 5px;
+    text-transform:uppercase;
+    font-size: 24px;
+    border-bottom: midnightblue;
+}
+
+
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #0A1A6E;
+    padding: 27px;
+    margin: 60px -20px;
+    
+}
+
+.poward,.h2,.p{
+    text-align: center;
+}
+
+.icon{
+    display: block;
+  
+}
+
+
+.icon{
+    position: absolute;
+    top: 364px;
+    right: 0px;
+    display: none;
+}
+
+@media only screen and (max-width:320px){
+
+    .name{
+        display:none;
+    }
+    .home a{
+        font-size: 30px;
+        text-align: center;
+        text-shadow: none;
+    }
+
+    nav{
+        
+        background-color: #0A1A6E;
+        padding: 5px;
+        
+    }
+
+
+    .hero{
+        width: 90%;
+        margin: 85px auto;
+    }
+
+
+    .left{
+        width: 40%;
+
+    }
+
+    .left p:nth-child(1){
+        font-size: 22px;
+
+    }
+
+    .left p:nth-child(2){
+        font-size: 20px;
+    }
+
+    .left p:nth-child(3){
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .me{
+        padding: 5px 5px;
+        font-size: 13px;
+    }
+
+    .cv{
+        padding: 5px 5px;
+        font-size: 13px;
+        margin: 5px;
+    }
+    .right,img{
+        width: 210px;
+    }
+
+    .leftp img {
+        display: none;
+    }
+
+
+
+    .rightp {
+        width: 90%;
+    }
+
+    .rightp p:nth-child(3){
+        width: 90%;
+     
+    }
+
+
+    .about{
+        width: 95%;
+        margin: auto;
+    }
+    .service {
+        width: 80%;
+        margin: 40px auto;
+        text-align: justify;
+        padding: auto;
+    }
+
+    .service-box{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 95%;
+        align-items: center;
+    }
+
+
+    .contact{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        border-radius: 5px;
+
+    }
+    
+    .poward{
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+        
+    }
+
+
+    footer{
+        width: 80%;
+        margin: auto;
+        padding: auto;
+        text-align: justify;
+
+    }
+
+
+
+}
